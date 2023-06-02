@@ -110,6 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Ingrese la altura"
+                android:inputType="number"
                 android:padding="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
@@ -144,18 +145,16 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <EditText
+            <TextView
                 android:id="@+id/txtArea"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Ingrese la altura"
                 android:padding="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
                 android:paddingBottom="20dp"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:inputType="none"/>
+                android:textStyle="bold" />
 
 
         </LinearLayout>
@@ -185,7 +184,7 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <EditText
+            <TextView
                 android:id="@+id/txtPerimetro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -194,8 +193,7 @@
                 android:paddingRight="16dp"
                 android:paddingBottom="20dp"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:inputType="none"/>
+                android:textStyle="bold" />
 
 
         </LinearLayout>

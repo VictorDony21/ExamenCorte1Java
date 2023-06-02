@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String nombre = txtNombre.getText().toString().trim();
-                if (txtNombre.getText().toString().isEmpty()) {
+                if (!nombre.isEmpty()) {
                     Intent intent = new Intent(MainActivity.this, RectanguloActividad.class);
                     intent.putExtra("nombre", nombre);
                     startActivity(intent);
